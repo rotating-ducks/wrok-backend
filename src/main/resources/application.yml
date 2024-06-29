@@ -1,1 +1,5 @@
-spring.application.name=WROK
+spring:
+  application:
+    name: WROK
+  config:
+    import: optional:classpath:application-credentials.yml
